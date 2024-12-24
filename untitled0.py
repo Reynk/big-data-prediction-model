@@ -139,7 +139,7 @@ rf_model = RandomForestClassifier(
 
 
 # Antrenam modelul cu hiperparametri pe setul de antrenament
-history = f_model.fit(X_train, y_train)
+history = rf_model.fit(X_train, y_train)
 
 # Realizam predictia pe setul de testare
 y_pred = rf_model.predict(X_test)
